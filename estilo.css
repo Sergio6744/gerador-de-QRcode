@@ -66,22 +66,22 @@ nav {
         background: rgb(0, 0, 192);
     }
     #url {
-        width: 95vw;
+        width: 90vw;
     }
     nav {
         flex-direction: column;
         width: 90vw;
-        margin: auto;
+        margin-left: 5vw;
     }
     #baixar, #recarregar {
         margin: 20px 0px 0px 0px;
-        height: 15px;
+        height: 25px;
         border-radius: 5px;
-        width: 90vw;
+        width: 85vw;
         
     }
     #QR {
-        height: 65vw;
-        width: 65vw;
+        height: 85vw;
+        width: 85vw;
     }
 }

@@ -16,7 +16,7 @@ document.addEventListener("keyup", ()=>{
     let url = document.querySelector("#url").value
     if(url.length >= 1) {
         QR.style.display = "block"
-        let api = `https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=${url}`
+        let api = `https://chart.googleapis.com/chart?cht=qr&chs=500x500&chl=${url}`
         QR.src = api
         baixar.style.background = "white"
         recarregar.style.background = "white"
@@ -34,7 +34,7 @@ baixar.addEventListener("click", ()=>{
     let a = document.createElement("a")
     a.style.display = "none"
     if(url.length >= 1) {
-        fetch(`https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=${url}`)
+        fetch(`https://chart.googleapis.com/chart?cht=qr&chs=500x500&chl=${url}`)
         .then(resp => resp.blob())
         .then((resp)=>{
             erro.style.display = "none"

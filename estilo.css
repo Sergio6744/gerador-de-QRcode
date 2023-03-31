@@ -47,6 +47,8 @@ h2 {
 #QR {
     display: none;
     margin: auto;
+    height: 300px;
+    width: 300px;
 }
 
 nav {

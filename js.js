@@ -39,7 +39,7 @@ baixar.addEventListener("click", ()=>{
         .then((resp)=>{
             erro.style.display = "none"
             a.href = URL.createObjectURL(resp)
-            a.download = "qr.png"
+            a.download = `${url}.png`
             document.body.appendChild(a)
             a.click()
             URL.revokeObjectURL(a.href)
